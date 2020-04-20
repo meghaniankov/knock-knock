@@ -26,3 +26,12 @@ To launch the server, run:
 $ cd server
 $ nodemon
 ```
+
+### Client
+
+To launch the front end client, run:
+
+```
+$ cd client
+$ npm start
+```

@@ -1,9 +1,12 @@
-import React, {Fragment} from 'react';
-
+import React from 'react';
 import './App.css';
+import StatusContainer from './components/StatusContainer';
+
 
 function App() {
-  return (<Fragment></Fragment>);
+  return (
+    <StatusContainer />
+  );
 }
 
 export default App;
