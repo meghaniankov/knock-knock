@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react'
 import axios from 'axios'
-import StatusDisplay from './statusDisplay'
-import StatusChoice from './updateStatus';
+import StatusDisplay from './StatusDisplay'
+import StatusChoice from './UpdateStatus';
 
 
 class StatusContainer extends React.Component {

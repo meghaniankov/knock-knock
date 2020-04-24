@@ -17,11 +17,11 @@ class StatusChoice extends React.Component {
     axios.put('http://localhost:5000/users/1', status);
   };
 
-  handleStatusUpdate = () => {
+  handleStatusUpdate =() => {
     this.updateStatus()
     setTimeout(() => {
       this.props.getState()
-    }, 1000);
+    }, 100);
     
   }
 
