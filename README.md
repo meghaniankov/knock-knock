@@ -24,7 +24,7 @@ To launch the server, run:
 
 ```
 $ cd server
-$ nodemon
+$ node index.js
 ```
 
 ### Client
