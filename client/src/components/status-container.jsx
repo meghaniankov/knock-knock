@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import StatusDisplay from './status-display'
+import AllStatuses from './all-statuses'
 import axios from 'axios'
 
  
@@ -30,7 +31,9 @@ const StatusContainer = () => {
         <button type="button" className="btn btn-primary" style={{backgroundColor: 'red'}} onClick={() => updateStatus('red')}>
           Set Status
         </button>
-
+        <div></div>
+        <div>View all statuses</div>
+        {<AllStatuses />}
       </div>
    )
 }
